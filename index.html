@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="author" content="idevelopment.pl">
+        <meta name="format-detection" content="telephone=no">
+
+        <link rel="stylesheet" href="punyAlert.css" title="no title">
+        <script type="text/javascript" src="punyAlert.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Fully customizable alert</h1>
+            <button type="button" name="button" onclick="fireAlert();">Fire alert</button>
+            <div class="puny-modal">
+                <div class="puny-alertBox">
+                </div>
+            </div>
+        </div>
+    <script>
+        function fireAlert(){
+            alert("Body text","Header text");
+        }
+    </script>
+    </body>
+</html>
